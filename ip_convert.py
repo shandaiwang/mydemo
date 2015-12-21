@@ -25,7 +25,6 @@ def int2ip(val):
     part4 = str(val & 0xff)
     return part1 + '.' + part2 + '.' + part3 + '.' + part4
 
-
 ip = '192.168.1.1'
 val = ip2int(ip)
 print(val)
